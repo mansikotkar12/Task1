@@ -1,0 +1,233 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: fantasy;
+        box-sizing: border-box;
+    }
+   
+    .nav{
+        border-top: 5px solid #11ACB4;
+        border-bottom: 1px solid  #cdccce;
+        height: 60px;
+        background-color: rgb(230, 230, 230);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 90px;
+        margin-right: 90px;
+    } 
+    .logo{
+        width: 40%;
+        color: rgb(0, 0, 0);
+        display: flex;
+        font-size: larger;
+        margin-left: 50px;
+    
+    }
+
+
+#logo1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(2, 2, 2) ;
+    display: flex;
+}
+#logo2{
+    font-size: small;
+    color: rgb(122, 122, 122);
+    display: flex;
+}
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+a:hover{
+    color: #11ACB4;
+    display: flex;
+}
+.content { 
+    overflow:auto; 
+    width: 1500px; 
+   
+  } 
+  
+  
+  #img{
+    width: 20%;
+    padding: 1em;
+    display: flex;
+    margin-left: 50px;
+    float: left;
+  }
+
+  #text { 
+    width: 60%; 
+    padding: 1em;
+    margin-top: 20px;
+    float: right;
+    font-size: medium;
+  } 
+  #p1{
+    margin-top: 5px;
+  }
+    button {
+        background-color: #11ACB4;
+        border: none;
+        color: white;
+        padding: 8px;
+        display: flex;
+        font-size: 10px;
+        border-radius: 10px;
+      }
+button:hover{
+    color: black;
+}
+
+ hr{
+    margin-top: 5px;
+    margin-right: 90px;
+    margin-left: 90px;
+ }
+
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    display: flexbox;
+    margin: 10px;
+    
+}
+.cardimg{
+    background-color: #11ACB4;
+    height:200px;
+    display: flex;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.car-1{
+    background-image: url("/home1.jpg");
+    display: flex;
+}
+.car-2{
+  background-image:url("/watch.jpg");    
+  display: flex;
+}
+
+.car-3{
+
+background-image: url("/water.jpeg");
+display: flex;
+}
+
+pre{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.f-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-top: 5px;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.fitems{
+    border: 4px solid rgb(230, 230, 230); ;
+    background-size: cover;
+    height: 90px;
+    display: flex;
+    
+}
+.ftext{
+    width: 300px;
+    font-size: small;
+
+    margin-right: 1px;
+    margin-top: 10px;
+ 
+   
+}
+
+.footer
+{   
+    margin: 15px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    display: flex ;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+    align-content: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+.foitems{
+    width: 350px;
+    height: 300px;
+}
+.btn{
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    font-size: 13px;
+    
+}
+h3{
+    margin-top: 25px;
+}
+.link{
+    color:#11ACB4;;
+}
+.ip{
+    margin-top:2px;
+}
+.more{
+    margin-left: 220px;
+    color: #11ACB4;
+}
+.input{
+    height:30px;
+    width: 60%;
+    background-color: rgb(65, 65, 65);
+    border-radius: 2px;
+    color: white;
+
+}
+.main1{
+    background-color: black;
+   color: #cdccce;
+   flex-wrap: wrap;
+   flex: content;
+   display: flex;
+   height: 50px;
+   justify-content: flex-start;
+   justify-content: space-between;
+}
+.main{
+ margin-top: 15px;
+ margin-right: 20px;
+ margin-left: 20px;
+}
+
+
